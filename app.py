@@ -1,9 +1,25 @@
-x = 3
-y = float(3)
-print(x,y)
-values = [1,2.23,5,7,2,30,15]
-print(values)
-for i in values:
-    print(i)
-print(values[0])
-print(values[6])
+#string for characters
+name = "Dev"
+print("X".isupper())
+#input asks the user a question and records the answer
+#what we write in input argument is what user sees
+bill = input("How much was the bill")
+#input always outputs a string
+print(bill)
+#integer uses whole numbers
+input(99.99)
+amt = 100
+#Float uses decimals
+amt_two = 99.99
+servicefeedback = input("How was your experience?")
+input("good")
+if servicefeedback == "good":
+        print("Thank you!, do you want to tip?")
+input("bad")
+if servicefeedback == "bad":
+        print("What was wrong with your experience?")
+        input("too expensive")
+        print("Thanks for your feedback")
+#BooLean
+x = True
+y = False
