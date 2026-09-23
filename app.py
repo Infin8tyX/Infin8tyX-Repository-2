@@ -14,7 +14,11 @@ amt_two = 99.99
 servicefeedback = input("How was your experience?")
 input("good")
 if servicefeedback == "good":
-        print("Thank you!, do you want to tip?")
+        tipoptions = input("Thank you!, do you want to tip?")
+        input("yes")
+        if tipoptions == "yes":
+                print("Okay, do you want to tip 10 or 20 percent?")
+                input("10%")
 input("bad")
 if servicefeedback == "bad":
         print("What was wrong with your experience?")
