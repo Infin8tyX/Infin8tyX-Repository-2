@@ -1,4 +1,4 @@
-#string for characters
+""" #string for characters
 name = "Dev"
 print("X".isupper())
 #input asks the user a question and records the answer
@@ -15,8 +15,8 @@ servicefeedback = input("amazing")
 if servicefeedback == input("amazing"):
         tipoptions = print("Wow thank you! Would you likem to leave a tip of 25%?")
         input("of course")
-        if tipoptions: input("of course")
-        bill = (amt*1.25)
+        if tipoptions == ("of course"):
+                bill = (amt*1.25)
         else: print("DUDE YOU HAD AN AMAZING EXPERIENCE JUST TIP")
         input("nah")
 servicefeedback = input("good")
@@ -36,4 +36,6 @@ if servicefeedback == "bad":
         print("I hate you dude, i work 80 hours every week just for you to say you had a bad experience")
 #BooLean
 #x = True
-#y = False
+#y = False """
+
+
