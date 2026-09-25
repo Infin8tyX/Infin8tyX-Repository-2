@@ -38,4 +38,15 @@ if servicefeedback == "bad":
 #x = True
 #y = False """
 
-
+bill = 99.99
+print (bill)
+tipoptions = [0, 10, 20, 25, 50, 75, 100]
+servicefeedback = ["bad", "okay", "good", "great", "amazing"]
+servicefeedback = input("your bill is $99.99, how was your service")
+if servicefeedback == "bad":
+       print("i hate you dude i work my ahh off just to ensure that you can have nice service, but people like you are the reason the world is becoming worse and worse. I hate you so much")
+if servicefeedback == "okay":
+        print("ok, now you are adding 10 percent extra, here is your new total")
+        print(bill*1.1)
+if servicefeedback == "good":
+        print(bill*1.2)
