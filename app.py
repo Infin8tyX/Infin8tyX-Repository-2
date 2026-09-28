@@ -38,9 +38,9 @@ if servicefeedback == "bad":
 #x = True
 #y = False """
 
-bill = 99.99
+""" bill = 99.99
 print (bill)
-tipoptions = [0, 10, 20, 25, 50, 75, 100]
+tipoptions = [0, 10, 20, 25, 50,]
 servicefeedback = ["bad", "okay", "good", "great", "amazing"]
 servicefeedback = input("your bill is $99.99, how was your service")
 if servicefeedback == "bad":
@@ -49,4 +49,23 @@ if servicefeedback == "okay":
         print("ok, now you are adding 10 percent extra, here is your new total")
         print(bill*1.1)
 if servicefeedback == "good":
+        print("ok, now your bill has a 20 percent tip added, here is your new tip")
         print(bill*1.2)
+if servicefeedback == "great":
+        print("Thanks! Your bill has a 25 percent tip added, here is your new total")
+        print(bill*1.25)
+if servicefeedback == "amazing":
+        print("Wow! Thank you so much, your total now has a 50 percent tip added to it, here is your new total")
+        print(bill*1.5) """
+
+""" numberinput = input("Input number: ")
+number = int(numberinput)
+if number % 2 == 0:
+    print("even")
+else:
+    print("odd") """
+
+numberinput = input("Input number")
+for i in range(1, numberinput + 1):
+        if numberinput % i == 0:
+                print(i)
