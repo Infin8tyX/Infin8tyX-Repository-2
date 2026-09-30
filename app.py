@@ -38,7 +38,7 @@ if servicefeedback == "bad":
 #x = True
 #y = False """
 
-""" bill = 99.99
+bill = 99.99
 print (bill)
 tipoptions = [0, 10, 20, 25, 50,]
 servicefeedback = ["bad", "okay", "good", "great", "amazing"]
@@ -56,7 +56,7 @@ if servicefeedback == "great":
         print(bill*1.25)
 if servicefeedback == "amazing":
         print("Wow! Thank you so much, your total now has a 50 percent tip added to it, here is your new total")
-        print(bill*1.5) """
+        print(bill*1.5) 
 
 """ numberinput = input("Input number: ")
 number = int(numberinput)
@@ -65,7 +65,13 @@ if number % 2 == 0:
 else:
     print("odd") """
 
-numberinput = input("Input number")
-for i in range(1, numberinput + 1):
+
+""" numberinput = int(input("Input number"))
+factors = []
+for i in range(1, numberinput, 1):
         if numberinput % i == 0:
-                print(i)
+                factors.append(i)
+                print(f"The factors of {numberinput} are {factors}") """
+
+""" def GCF(a, b):
+     """
