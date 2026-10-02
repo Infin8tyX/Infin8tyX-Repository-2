@@ -58,6 +58,7 @@ if servicefeedback == "amazing":
         print("Wow! Thank you so much, your total now has a 50 percent tip added to it, here is your new total")
         print(bill*1.5) 
  """
+
 """ numberinput = input("Input number: ")
 number = int(numberinput)
 if number % 2 == 0:
@@ -81,8 +82,10 @@ for i in range(1, numberinput, 1):
                         return occupied
 spaces(5, "CC..C", ".CC..") """
 
-def GCF(num1, num2):
-    num1 = input("enter first number")
-    num2 = input("enter second number")
 
-    print("the GCF of", num1 "and", num2+)
+import math
+
+a=int(input("Enter first number:"))
+b=int(input("Enter second number:"))
+ 
+print("The GCF of",a ,"and", b ,"is",math.gcd(a, b))
