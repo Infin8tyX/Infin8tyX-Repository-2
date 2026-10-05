@@ -74,14 +74,14 @@ for i in range(1, numberinput, 1):
                 factors.append(i)
                 print(f"The factors of {numberinput} are {factors}") """
 
-def spaces(n, y, t):
+""" def spaces(n, y, t):
         occupied = 0
         for i in range(n):
                 if y[i] == "C" and t[i] =="C":
                         occupied = occupied+1
                         return occupied
 spaces(5, "CC..C", ".CC..")
-
+ """
 
 """ import math
 
@@ -89,3 +89,14 @@ a=int(input("Enter first number:"))
 b=int(input("Enter second number:"))
  
 print("The GCF of",a ,"and", b ,"is",math.gcd(a, b)) """
+
+#wizard assessment example
+def wizard(owner, N, duels):
+    last_owner = owner
+    # number of times wand changes
+    changes = 0
+    # check 1 single battle
+    print(duels[0][0])
+
+
+wizard("A", 3, ["BA", "CB"])
