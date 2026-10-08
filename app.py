@@ -75,10 +75,15 @@ for i in range(1, numberinput, 1):
                 print(f"The factors of {numberinput} are {factors}") """
 
 
-import math
+def gcf(a, b):
+    while b != 0:
+        a, b = b, a % b
+    return a
 
-a=int(input("Enter first number:"))
-b=int(input("Enter second number:"))
- 
-print("The GCF of",a ,"and", b ,"is",math.gcd(a, b))
+
+result = gcf(
+    int(input("Enter first number: ")),
+    int(input("Enter second number: "))
+)
+print(result)
 
